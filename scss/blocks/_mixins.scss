@@ -19,6 +19,19 @@
     align-items: center;
 }
 
+@mixin df-row-center-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@mixin df-row-center-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
 
 @mixin df-row-start-center {
     display: flex;
@@ -34,21 +47,7 @@
     align-items: center;
 }
 
-@mixin df-row-center-start {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-@mixin df-row-center-end {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-@mixin df-center-center {
+@mixin df-column-center-center {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,18 +61,18 @@
     align-items: center;
 }
 
-@mixin df-column-center-end {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-}
-
 @mixin df-column-center-start {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+@mixin df-column-center-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 @mixin df-column-start-center {

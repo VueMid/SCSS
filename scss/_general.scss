@@ -1,3 +1,8 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
 ::selection {
     background-color: $black;
     color: $white;
@@ -68,6 +73,13 @@ body {
     background-color: $white;
     color: $black;
     overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1366px;
+    padding: 0 0px;
+    margin: 0 auto;
 }
 
 .visually-hidden {
